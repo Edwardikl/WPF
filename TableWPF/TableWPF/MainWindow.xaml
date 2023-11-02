@@ -1,0 +1,206 @@
+﻿<Window x:Class="TableWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TableWPF"
+        mc:Ignorable="d"
+        Title="Таблица" Height="266" Background="Orange"  Width="789">
+    <Grid Margin="5,0,10,-6">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" ></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Border Background="LightGreen" Margin="0,43,-30,36" Grid.ColumnSpan="7" Grid.RowSpan="3"/>
+        <Border Background="LightGray" Margin="0,0,-30,0" Grid.Row="2" Grid.ColumnSpan="7"></Border>
+        <Border Background="LightGreen" Margin="0,36,-30,0" Grid.Row="2" Grid.ColumnSpan="7" Grid.RowSpan="2"></Border>
+        <Border Background="LightGray" Margin="0,37,-30,36" Grid.Row="3" Grid.ColumnSpan="7" Grid.RowSpan="3"></Border>
+        <Border Background="LightGreen" Margin="0,0,-30,0" Grid.Row="5" Grid.ColumnSpan="7"></Border>
+
+        <!--0-->
+        <Grid Grid.Row="0" Grid.ColumnSpan="7">
+            <Label FontSize="25" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center">Таблица №1</Label>
+        </Grid>
+
+        <!--1-->
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Label FontSize="20" VerticalAlignment="Center" FontWeight="Black">Наименование</Label>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Label FontSize="20" VerticalAlignment="Center" FontWeight="Black">Запись</Label>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Label FontSize="20" VerticalAlignment="Center" FontWeight="Black">Проверка</Label>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="3">
+            <Label FontSize="20" VerticalAlignment="Center" FontWeight="Black">Режим</Label>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="4">
+            <Label FontSize="20" VerticalAlignment="Center" FontWeight="Black">Вкл\выкл</Label>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="5">
+            <Label FontSize="20" VerticalAlignment="Center" FontWeight="Black">Действия</Label>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="6">
+            <Label FontSize="20" VerticalAlignment="Center" FontWeight="Black"></Label>
+        </Grid>
+
+        <!--2-->
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Label FontSize="20">Насос 1</Label>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="1">
+            <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Width="50"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="2">
+            <CheckBox Content="Вкл\выкл" VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="3">
+            <RadioButton Content="1" VerticalAlignment="Top" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Content="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"></RadioButton>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="4">
+            <ToggleButton Content="!Жми!" VerticalAlignment="Center" HorizontalAlignment="Center"></ToggleButton>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="5">
+            <ComboBox VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <ComboBoxItem Content="1"></ComboBoxItem>
+                <ComboBoxItem Content="2"></ComboBoxItem>
+                <ComboBoxItem Content="3"></ComboBoxItem>
+            </ComboBox>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="6" >
+            <Button VerticalAlignment="Center" HorizontalAlignment="Left" Content="Обработать" Margin="10,0,0,0" Click="Button_Click" ></Button>
+        </Grid>
+
+        <!--3-->
+        <Grid Grid.Row="3" Grid.Column="0">
+            <Label FontSize="20" >Насос 2</Label>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="1">
+            <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Width="50"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="2">
+            <CheckBox Content="Вкл\выкл" VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="3">
+            <RadioButton Content="1" VerticalAlignment="Top" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Content="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"></RadioButton>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="4">
+            <ToggleButton Content="!Жми!" VerticalAlignment="Center" HorizontalAlignment="Center"></ToggleButton>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="5">
+            <ComboBox VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <ComboBoxItem Content="1"></ComboBoxItem>
+                <ComboBoxItem Content="2"></ComboBoxItem>
+                <ComboBoxItem Content="3"></ComboBoxItem>
+            </ComboBox>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="6">
+            <Button VerticalAlignment="Center" HorizontalAlignment="Left" Content="Обработать" Margin="10,0,0,0" Click="Button_Click_1" ></Button>
+        </Grid>
+
+        <!--4-->
+        <Grid Grid.Row="4" Grid.Column="0">
+            <Label FontSize="20" >Насос 3</Label>
+        </Grid>
+
+        <Grid Grid.Row="4" Grid.Column="1">
+            <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Width="50"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="4" Grid.Column="2">
+            <CheckBox Content="Вкл\выкл" VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Row="4" Grid.Column="3">
+            <RadioButton Content="1" VerticalAlignment="Top" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Content="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"></RadioButton>
+        </Grid>
+
+        <Grid Grid.Row="4" Grid.Column="4">
+            <ToggleButton Content="!Жми!" VerticalAlignment="Center" HorizontalAlignment="Center"></ToggleButton>
+        </Grid>
+
+        <Grid Grid.Row="4" Grid.Column="5">
+            <ComboBox VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <ComboBoxItem Content="1"></ComboBoxItem>
+                <ComboBoxItem Content="2"></ComboBoxItem>
+                <ComboBoxItem Content="3"></ComboBoxItem>
+            </ComboBox>
+        </Grid>
+
+        <Grid Grid.Row="4" Grid.Column="6">
+            <Button VerticalAlignment="Center" HorizontalAlignment="Left" Content="Обработать" Margin="10,0,0,0" Click="Button_Click_2" ></Button>
+        </Grid>
+
+        <!--5-->
+        <Grid Grid.Row="5" Grid.Column="0">
+            <Label FontSize="20" >Насос 4</Label>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="1">
+            <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Width="50"></TextBox>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="2">
+            <CheckBox Content="Вкл\выкл" VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="3">
+            <RadioButton Content="1" VerticalAlignment="Top" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Content="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"></RadioButton>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="4">
+            <ToggleButton Content="!Жми!" VerticalAlignment="Center" HorizontalAlignment="Center"></ToggleButton>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="5">
+            <ComboBox VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <ComboBoxItem Content="1"></ComboBoxItem>
+                <ComboBoxItem Content="2"></ComboBoxItem>
+                <ComboBoxItem Content="3"></ComboBoxItem>
+            </ComboBox>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="6">
+            <Button VerticalAlignment="Center" HorizontalAlignment="Left" Content="Обработать" Margin="10,0,0,0" Click="Button_Click_3" ></Button>
+        </Grid>
+
+    </Grid>
+</Window>

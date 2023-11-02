@@ -1,0 +1,15 @@
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF.csproj.AssemblyReference.cache
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\App.g.cs
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF_MarkupCompile.cache
+C:\Practices\C#\TableWPF\TableWPF\bin\Debug\TableWPF.exe.config
+C:\Practices\C#\TableWPF\TableWPF\bin\Debug\TableWPF.exe
+C:\Practices\C#\TableWPF\TableWPF\bin\Debug\TableWPF.pdb
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\MainWindow.g.cs
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF_MarkupCompile.lref
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\MainWindow.baml
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF.g.resources
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF.Properties.Resources.resources
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF.csproj.GenerateResource.cache
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF.csproj.CoreCompileInputs.cache
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF.exe
+C:\Practices\C#\TableWPF\TableWPF\obj\Debug\TableWPF.pdb
